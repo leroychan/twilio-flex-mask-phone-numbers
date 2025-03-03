@@ -1,8 +1,6 @@
 import React from "react";
 import { FlexPlugin } from "@twilio/flex-plugin";
 
-import MaskedMessageBubble from "./components/MaskedMessageBubble/MaskedMessageBubble";
-
 const PLUGIN_NAME = "TwilioFlexMaskConversationsPlugin";
 
 export default class TwilioFlexMaskConversationsPlugin extends FlexPlugin {
